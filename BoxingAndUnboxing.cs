@@ -65,7 +65,5 @@
             Console.WriteLine($"Valor de obj : {_objInHeap2}");
             Console.WriteLine($"Valor de i : {i}");
         }
-
-
     }
 }

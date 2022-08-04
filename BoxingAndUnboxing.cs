@@ -41,7 +41,7 @@
 
     public class BoxingAndUnboxing { // ª = Stack, º = 
 
-        public static void Main(string[] args) {
+        /*public static void Main(string[] args) {
 
             Console.WriteLine("//------Boxing------//");
 
@@ -64,6 +64,6 @@
 
             Console.WriteLine($"Valor de obj : {_objInHeap2}");
             Console.WriteLine($"Valor de i : {i}");
-        }
+        }*/
     }
 }

@@ -9,9 +9,15 @@ namespace CSEjercicios {
     #endregion
     internal class ArraySort {
 
-        public static void Main(string[] args) {
+        public ArraySort() {
 
-            int[] array = { 1, 2, 3, 4, 5 };
+        }
+
+        public void InvertirArray(int[] array) {
+            if (array is null) {
+                throw new ArgumentNullException(nameof(array));
+            }
+
             Console.WriteLine($"array normal : {String.Join(",", array)}");
 
             int n = 0;
@@ -28,6 +34,7 @@ namespace CSEjercicios {
 
             Console.WriteLine();
             Console.WriteLine($"array invertido : {String.Join(",", array)}");
+
         }
     }
 }

@@ -41,8 +41,11 @@
 
     public class BoxingAndUnboxing { // ª = Stack, º = 
 
-        /*public static void Main(string[] args) {
+        public BoxingAndUnboxing() {
+            
+        }
 
+        public void ShowExample() {
             Console.WriteLine("//------Boxing------//");
 
             int _numInStack = 25; // 25 es asignado a num en la memoria Stack de la RAM >> numª
@@ -64,6 +67,6 @@
 
             Console.WriteLine($"Valor de obj : {_objInHeap2}");
             Console.WriteLine($"Valor de i : {i}");
-        }*/
+        }
     }
 }

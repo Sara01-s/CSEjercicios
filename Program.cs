@@ -34,13 +34,17 @@ namespace CSEjercicios {
 
             foreach (var num in GetNumbers()) {
                 Console.WriteLine(num);
-            }*/
+            }
 
             var empresa = new Empresa();
 
             foreach (var nombre in empresa.Where(n => n.Length > 4)) {
                 Console.WriteLine(nombre);
-            }
+            }*/
+
+
+            var cyb = new ContinueYBreak();
+            cyb.Diferencia();
 
 
         }
